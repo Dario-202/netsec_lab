@@ -1,5 +1,3 @@
-"""Concurrent, line-based TCP key-value server on port 9001."""
-
 import socketserver
 import threading
 
