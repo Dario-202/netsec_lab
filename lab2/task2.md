@@ -18,9 +18,7 @@ associated with the known C2 domain.
 & "C:\Program Files\Wireshark\tshark.exe" --% -r .\lab2\capture-7.2.pcap -Y "tls.handshake.ja4 == "JA4"" -T fields -e tls.handshake.extensions_server_name
 ```
 
-Replace YOUR_JA4 with the fingerprint obtained from the previous
-command. This command extracts the SNI values of all connections
-with the same JA4 fingerprint.
+This command extracts the SNI values of all connections with the same JA4 fingerprint.
 
 ### 3. Generate the flag
 
