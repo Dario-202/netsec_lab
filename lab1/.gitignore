@@ -2,3 +2,4 @@ server.key
 cookies.txt
 ca.crt
 README_HTTPS.md
+netsec.auth
